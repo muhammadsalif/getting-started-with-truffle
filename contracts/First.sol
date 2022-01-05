@@ -5,4 +5,8 @@ contract First {
     function showMessage() public view returns (string memory) {
         return "Hello World";
     }
+
+    function showAge() public view returns(int){
+        return 14;
+    }
 }
